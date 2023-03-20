@@ -1,0 +1,19 @@
+name: core
+
+autoload:
+  psr-4:
+    app\:
+      - ''
+      - src
+    app\sys\: '.system'
+
+service:
+  class: app\Service
+
+  routes:
+    /: '' #TODO: must be defined
+
+  plugins: plugins
+
+  components:
+    cli: app\cli\Cli

@@ -1,0 +1,5 @@
+name: User
+
+fields:
+  login: string required
+  password: string required

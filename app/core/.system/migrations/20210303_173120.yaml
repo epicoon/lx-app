@@ -1,0 +1,15 @@
+actions:
+  - type: createTable
+    schema:
+      name: User
+      fields:
+        login:
+          type: string
+          required: true
+          details:
+            size: 256
+        password:
+          type: string
+          required: true
+          details:
+            size: 256

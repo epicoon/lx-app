@@ -1,0 +1,12 @@
+server: app\plugins\admin\server\Plugin
+client: client/Plugin.js
+
+respondents:
+  Resp: Respondent
+
+snippets: snippets
+rootSnippet: snippets/_root.js
+
+images: assets/images
+
+cacheType: smart
